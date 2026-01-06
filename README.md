@@ -8,7 +8,7 @@ This project implements a complete **Frontend Task** using **Next.js (App Router
 👉 https://YOUR-VERCEL-LINK.vercel.app
 
 ## 📦 GitHub Repository
-👉 https://github.com/YOUR-USERNAME/YOUR-REPO
+👉 https://github.com/Bebbo88/task
 
 ---
 
@@ -92,4 +92,4 @@ This project implements a complete **Frontend Task** using **Next.js (App Router
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/Bebbo88/task.git
