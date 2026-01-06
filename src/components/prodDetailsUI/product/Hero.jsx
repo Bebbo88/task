@@ -22,7 +22,7 @@ export default function Hero() {
             priority
           />
         </div>
-        <div className="absolute top-1/2 left-2/3 -translate-x-55 md:-translate-x-95 -translate-y-5  w-[400px] h-[60px] md:w-[628px] md:h-[120px] ">
+        <div className="absolute top-1/2 left-2/3 -translate-x-50 md:-translate-x-60 lg:-translate-x-95 -translate-y-5  w-[400px] h-[60px] md:w-[628px] md:h-[120px] ">
           <h3 className="text-[32px] font-bold">Product Details</h3>
         </div>
       </div>

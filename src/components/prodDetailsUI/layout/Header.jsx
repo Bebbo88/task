@@ -8,8 +8,8 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-white  py-4 px-6 md:px-24 flex justify-between items-center sticky top-0 z-50 relative">
-      <div className="flex items-center space-x-16">
+    <header className="bg-white  py-4 px-6 lg:px-24 flex justify-between items-center sticky top-0 z-50 relative">
+      <div className="flex items-center gap-8 lg:gap-15">
         <Image src="/icons/logo.svg" alt="Logo" width={65} height={51} />
         <NavLinks />
       </div>

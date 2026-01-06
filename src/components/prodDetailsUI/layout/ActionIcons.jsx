@@ -14,7 +14,7 @@ export default function ActionIcons({ mobile = false }) {
       className={
         mobile
           ? "flex items-center justify-between px-20 py-2"
-          : "flex items-center space-x-6"
+          : "flex items-center gap-4"
       }
     >
       <Image src={svgs[0]} alt="Cart" width={20} height={20} />

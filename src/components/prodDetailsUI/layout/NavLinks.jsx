@@ -12,7 +12,7 @@ export default function NavLinks({ mobile = false }) {
   return (
     <nav
       className={
-        mobile ? "flex flex-col gap-2 px-6 py-4" : "hidden md:flex space-x-8"
+        mobile ? "flex flex-col gap-2 px-6 py-4" : "hidden md:flex space-x-5"
       }
     >
       {links.map((link, i) => (
@@ -21,7 +21,7 @@ export default function NavLinks({ mobile = false }) {
           className={
             mobile
               ? "flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition"
-              : "flex items-center space-x-2"
+              : "flex items-center space-x-3"
           }
         >
           <Image src={svgs[i]} alt={link} width={20} height={20} />

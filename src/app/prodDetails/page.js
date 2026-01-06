@@ -19,7 +19,7 @@ export default function ProductDetailsPage() {
       <SectionWrapper className="pt-4 pb-10 ps-5 pe-5 md:ps-20 md:pe-20">
         <AfterHero />
       </SectionWrapper>
-      <SectionWrapper className="pt-4 pb-10 ps-5 pe-5 md:ps-20 md:pe-20">
+      <SectionWrapper className="pt-4 pb-10 ps-5 pe-5  md:ps-20 md:pe-20">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <ProductGallery />
           <ProductInfo />
