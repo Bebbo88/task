@@ -5,7 +5,7 @@ This project implements a complete **Frontend Task** using **Next.js (App Router
 ---
 
 ## 🚀 Live Demo
-👉 https://YOUR-VERCEL-LINK.vercel.app
+👉 https://task-3dim.vercel.app/
 
 ## 📦 GitHub Repository
 👉 https://github.com/Bebbo88/task
