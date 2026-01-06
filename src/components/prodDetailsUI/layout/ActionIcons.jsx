@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ActionIcons({ mobile = false }) {
   const svgs = [
     "/icons/shopping bag.svg",
-    "/icons/vector.svg",
+    "/icons/Vector.svg",
     "/icons/love.svg",
     "/icons/mingcute_down-line.svg",
     "/icons/Frame 1000005106.svg",
