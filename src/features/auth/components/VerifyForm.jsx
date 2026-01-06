@@ -31,7 +31,7 @@ export default function VerifyForm() {
               resendCode(values.email);
               toast.success("Code resent successfully");
             }}
-            className="text-sm cursor-pointer text-blue-600 w-full hover:underline"
+            className="text-sm cursor-pointer text-[#BE968E] w-full hover:underline"
           >
             Resend Code
           </button>
