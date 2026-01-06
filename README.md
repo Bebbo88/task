@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Frontend Task – Next.js
 
-## Getting Started
+This project implements a complete **Frontend Task** using **Next.js (App Router)**, including an **Authentication Flow** and a **Pixel-Perfect Product Details UI** based on the provided Figma design.
 
-First, run the development server:
+---
 
+## 🚀 Live Demo
+👉 https://YOUR-VERCEL-LINK.vercel.app
+
+## 📦 GitHub Repository
+👉 https://github.com/YOUR-USERNAME/YOUR-REPO
+
+---
+
+## 🛠 Tech Stack
+- Next.js (App Router)
+- JavaScript
+- Tailwind CSS
+- Formik & Yup (Forms & Validation)
+- Axios (API integration)
+- Vercel (Deployment)
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication Flow
+- Register with:
+  - Full Name
+  - Email
+  - Password
+  - Phone Number
+  - Country Code
+- Email Verification using a 6-digit code  
+  - **Test Code:** `123456`
+- Login with Email & Password
+- JWT Token stored in `localStorage`
+- Protected Dashboard
+- Logout functionality
+
+---
+
+### 🛒 Product Details UI
+- Pixel-perfect implementation from Figma
+- Fully responsive (Desktop & Mobile)
+- Product gallery with thumbnails
+- Product details:
+  - Title & description
+  - Price & discounted price
+  - Type & size selectors
+  - Color selector
+  - Quantity selector
+  - Add to Cart button
+- Ratings & reviews section
+- Similar products section
+- Custom footer with background image
+
+---
+
+## 🔁 Authentication Flow Overview
+1. **Register**
+   - User submits registration form
+   - API returns a verification token
+   - Token is stored temporarily in `localStorage`
+
+2. **Verify Email**
+   - User enters the verification code (`123456`)
+   - Verification request is sent with Authorization header
+   - Token is removed after successful verification
+
+3. **Login**
+   - User logs in with email & password
+   - JWT token and user data are stored in `localStorage`
+
+4. **Dashboard**
+   - Protected route
+   - Displays: `Welcome, [User Name]`
+   - Redirects to login if not authenticated
+
+---
+
+## 🧪 Validation & UX
+- Form validation using **Yup**
+- Numeric-only verification code input
+- Graceful API error handling
+- Defensive parsing of stored data to avoid runtime errors
+- Clean, reusable, and scalable components
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
