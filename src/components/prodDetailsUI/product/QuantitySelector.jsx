@@ -34,7 +34,7 @@ export default function QuantitySelector() {
               +
             </button>
           </div>
-          <div className="text-4xl font-semibold">
+          <div className="text-2xl xl:text-4xl font-semibold">
             ${(price * qty).toFixed(2)}
           </div>
         </div>

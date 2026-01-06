@@ -1,6 +1,6 @@
 export default function TotalReviews() {
   return (
-    <div className="hidden md:flex flex-col items-center gap-4 mt-16">
+    <div className="hidden lg:flex flex-col items-center gap-4 mt-16">
       <span className="text-gray-500 text-sm">Total Reviews</span>
 
       <span className="text-5xl font-semibold">3.0K</span>
