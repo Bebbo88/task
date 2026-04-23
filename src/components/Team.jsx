@@ -4,7 +4,7 @@ export default function Team() {
       <h1>Amr</h1>
       <h1>saeed</h1>
 
-      <h1>Raghad</h1>
+      <h1>Raghaddd</h1>
     </div>
   );
 }
